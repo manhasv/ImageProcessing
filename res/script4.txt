@@ -1,0 +1,9 @@
+load res/dog1.jpg jpg
+load res/image2.ppm ppm
+
+load res/dog.png dd
+greyscale dd greyscale
+save greyscale.bmp greyscale 
+
+sepia ppm sep
+save sep.png sep

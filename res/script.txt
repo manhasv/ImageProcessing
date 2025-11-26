@@ -1,0 +1,40 @@
+load dog1.jpg jpg
+load image2.ppm ppm
+brighten 50 jpg bright
+save bright.png bright
+
+horizontal-flip jpg hori
+vertical-flip hori verti
+save verti.bmp verti
+
+blue-component jpg blue
+save blue.png blue
+
+load dog.png png
+red-component png red
+save red.ppm red
+
+load dog2.bmp bmp
+green-component bmp green
+save green.jpg green
+
+value-component jpg value
+save value.bmp value
+
+intensity-component jpg intensity
+save intensity.bmp intensity
+
+luma-component jpg luma
+save luma.bmp luma
+
+vertical-flip ppm ppm-flip
+save ppm-flip.png ppm-flip
+
+brighten -50 jpg darken
+save darken.png darken
+
+blur jpg blur
+save blur.png blur
+
+sharpening jpg sharpen
+save sharpen.jpg sharpen
